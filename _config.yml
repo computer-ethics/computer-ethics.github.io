@@ -1,8 +1,9 @@
-title: Just the Docs Template
-description: A starter template for a Jeykll site using the Just the Docs theme!
+title: Computer Ethics
+description: Computer Ethics Education Center at UC Berkeley provides the necessary resources to create a computer ethics class curriculum, aimed at undergraduate and graduate students with existing technical background.
 theme: just-the-docs
+color_scheme: dark
 
-url: https://just-the-docs.github.io
+url: https://computer-ethics.com/
 
-aux_links:
-  Template Repository: https://github.com/just-the-docs/just-the-docs-template
+aux_links: # remove if you don't want this link to appear on your pages
+  Website Source on GitHub: https://github.com/computer-ethics/computer-ethics.github.io
