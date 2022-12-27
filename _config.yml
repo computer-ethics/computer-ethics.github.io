@@ -1,7 +1,6 @@
 title: Computer Ethics
 description: Computer Ethics Education Center at UC Berkeley provides the necessary resources to create a computer ethics class curriculum, aimed at undergraduate and graduate students with existing technical background.
-# theme: "just-the-docs"
-remote_theme: pmarsceill/just-the-docs
+theme: just-the-docs
 color_scheme: dark
 
 url: https://computer-ethics.com/
