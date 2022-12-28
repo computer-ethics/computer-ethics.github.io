@@ -1,7 +1,6 @@
 ---
 layout: home
 title: Privacy, Surveillance, and Free Speech
-permalink: /modules/privacy
 parent: Modules
 nav_order: 2
 has_children: true
