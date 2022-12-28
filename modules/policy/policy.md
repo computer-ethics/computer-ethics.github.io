@@ -1,4 +1,5 @@
 ---
+permalink: /modules/policy/
 layout: home
 title: Technology Law and Policy
 parent: Modules

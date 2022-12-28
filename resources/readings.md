@@ -1,4 +1,5 @@
 ---
+permalink: /resources/readings/
 layout: home
 title: Readings
 parent: Resources

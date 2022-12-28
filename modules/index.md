@@ -1,4 +1,5 @@
 ---
+permalink: /modules/
 layout: home
 title: Modules
 nav_order: 3

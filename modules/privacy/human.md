@@ -1,4 +1,5 @@
 ---
+permalink: /modules/privacy/human/
 layout: home
 title: Human Factors
 parent: Privacy, Surveillance, and Free Speech

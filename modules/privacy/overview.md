@@ -1,4 +1,5 @@
 ---
+permalink: /modules/privacy/overview/
 layout: home
 title: Overview
 parent: Privacy, Surveillance, and Free Speech
