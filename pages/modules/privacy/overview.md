@@ -1,7 +1,6 @@
 ---
 layout: home
 title: Overview
-permalink: /modules/privacy/overview
 parent: Privacy, Surveillance, and Free Speech
 grand_parent: Modules
 nav_order: 2

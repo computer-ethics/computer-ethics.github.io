@@ -1,7 +1,6 @@
 ---
 layout: home
-title: Syllabus
-permalink: /syllabus/
+title: Example Syllabus
 nav_order: 2
 ---
 

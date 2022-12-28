@@ -1,7 +1,6 @@
 ---
 layout: home
 title: Vulerable Populations
-permalink: /modules/privacy/vulnerable-populations
 parent: Privacy, Surveillance, and Free Speech
 grand_parent: Modules
 nav_order: 3

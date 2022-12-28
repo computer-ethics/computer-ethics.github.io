@@ -1,7 +1,6 @@
 ---
 layout: home
 title: Human Factors
-permalink: /modules/privacy/human-factors/
 parent: Privacy, Surveillance, and Free Speech
 grand_parent: Modules
 nav_order: 3
