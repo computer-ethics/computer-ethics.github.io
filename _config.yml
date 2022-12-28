@@ -1,9 +1,31 @@
 title: Computer Ethics
 description: Computer Ethics Education Center at UC Berkeley provides the necessary resources to create a computer ethics class curriculum, aimed at undergraduate and graduate students with existing technical background.
 theme: just-the-docs
-color_scheme: dark
+# color_scheme: dark
 
 url: https://computer-ethics.com/
 
-aux_links: # remove if you don't want this link to appear on your pages
+aux_links:
   Website Source on GitHub: https://github.com/computer-ethics/computer-ethics.github.io
+
+##################################
+# Footer content
+##################################
+
+# Back to top link
+back_to_top: true
+back_to_top_text: "Back to top"
+
+footer_content: "Copyright &copy; 2023 Computer Ethics Education Center. Distributed by an <a href=\"https://github.com/computer-ethics/computer-ethics.github.io/blob/main/LICENSE\">MIT license.</a>"
+
+# Footer last edited timestamp
+last_edit_timestamp: true # show or hide edit time - page must have `last_modified_date` defined in the frontmatter
+last_edit_time_format: "%b %e %Y at %I:%M %p" # uses ruby's time format: https://ruby-doc.org/stdlib-2.7.0/libdoc/time/rdoc/Time.html
+
+# Footer "Edit this page on GitHub" link text
+gh_edit_link: true # show or hide edit this page link
+gh_edit_link_text: "Edit this page on GitHub"
+gh_edit_repository: "https://github.com/computer-ethics/computer-ethics.github.io" # the github URL for your repo
+gh_edit_branch: "main" # the branch that your docs is served from
+# gh_edit_source: docs # the source that your files originate from
+gh_edit_view_mode: "blob" # "tree" or "edit" if you want the user to jump into the editor immediately

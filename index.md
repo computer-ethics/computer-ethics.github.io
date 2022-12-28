@@ -1,11 +1,12 @@
 ---
-title: Home
 layout: home
+title: Home
+permalink: /
 nav_order: 1
 ---
-![](assets/images/logo.jpg)
 
-## Welcome to the Computer Ethics Education Center!
+![](assets/images/logo.jpg)
+# Welcome to Computer Ethics Education Center!
 
 The Computer Ethics Education Center, based at the University of California, Berkeley, offers materials and resources to teach computer ethics to undergraduate and graduate students in Computer Science and related disciplines.
 
