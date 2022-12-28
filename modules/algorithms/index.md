@@ -1,4 +1,5 @@
 ---
+permalink: /modules/algorithms/
 layout: home
 title: Algorithmic Decision-Making
 parent: Modules

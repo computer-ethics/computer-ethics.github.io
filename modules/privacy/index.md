@@ -1,4 +1,5 @@
 ---
+permalink: /modules/privacy/
 layout: home
 title: Privacy, Surveillance, and Free Speech
 parent: Modules

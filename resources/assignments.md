@@ -1,4 +1,5 @@
 ---
+permalink: /resources/assignments/
 layout: home
 title: Assignments
 parent: Resources

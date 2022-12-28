@@ -1,4 +1,5 @@
 ---
+permalink: /resources/
 layout: home
 title: Resources
 nav_order: 4

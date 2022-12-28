@@ -1,4 +1,5 @@
 ---
+permalink: /modules/privacy/vulnerable/
 layout: home
 title: Vulerable Populations
 parent: Privacy, Surveillance, and Free Speech
