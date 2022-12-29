@@ -10,14 +10,12 @@ nav_order: 2
 # Government and Technology
 Summary of the module goes here.
 
-* * *
-## Readings
+<h2 class="text-delta">Readings</h2>
 * Lorem
 * Lorem
 * Lorem
 
-## Discussion
-Ask your students:
+<h2 class="text-delta">Discussion Questions</h2>
 * Lorem
 * Lorem
 * Lorem
