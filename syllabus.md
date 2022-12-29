@@ -1,7 +1,7 @@
 ---
 permalink: /syllabus/
 layout: home
-title: Example Syllabus
+title: Syllabus
 nav_order: 2
 ---
 
