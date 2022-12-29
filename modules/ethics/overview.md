@@ -1,13 +1,13 @@
 ---
-permalink: /modules/privacy/vulnerable/
+permalink: /modules/ethics/overview/
 layout: home
-title: Vulnerable Populations
-parent: Privacy, Surveillance, and Free Speech
+title: Overview
+parent: Professional Ethics and Values
 grand_parent: Modules
-nav_order: 2
+nav_order: 3
 ---
 
-# Vulnerable Populations
+# Overview
 Summary of the module goes here.
 
 * * *

@@ -1,13 +1,13 @@
 ---
-permalink: /modules/privacy/vulnerable/
+permalink: /modules/software/attention/
 layout: home
-title: Vulnerable Populations
-parent: Privacy, Surveillance, and Free Speech
+title: Attention and Engagement
+parent: Software Risks and Case Studies
 grand_parent: Modules
 nav_order: 2
 ---
 
-# Vulnerable Populations
+# Attention and Engagement
 Summary of the module goes here.
 
 * * *

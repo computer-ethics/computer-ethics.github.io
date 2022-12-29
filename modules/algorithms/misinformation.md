@@ -1,13 +1,13 @@
 ---
-permalink: /modules/privacy/vulnerable/
+permalink: /modules/algorithms/misinformation/
 layout: home
-title: Vulnerable Populations
-parent: Privacy, Surveillance, and Free Speech
+title: Propaganda and Misinformation
+parent: Algorithmic Decision-Making
 grand_parent: Modules
 nav_order: 2
 ---
 
-# Vulnerable Populations
+# Propaganda and Misinformation
 Summary of the module goes here.
 
 * * *

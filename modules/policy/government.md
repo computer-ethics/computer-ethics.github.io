@@ -1,13 +1,13 @@
 ---
-permalink: /modules/privacy/vulnerable/
+permalink: /modules/policy/government/
 layout: home
-title: Vulnerable Populations
-parent: Privacy, Surveillance, and Free Speech
+title: Government and Technology
+parent: Technology Law and Policy
 grand_parent: Modules
 nav_order: 2
 ---
 
-# Vulnerable Populations
+# Government and Technology
 Summary of the module goes here.
 
 * * *

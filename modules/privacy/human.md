@@ -7,10 +7,17 @@ grand_parent: Modules
 nav_order: 3
 ---
 
-# Module 2. Privacy, Surveillance, and Free Speech
+# Human Factors
 Summary of the module goes here.
 
-## Learning Objectives
-* Learning Objective 1
-* Learning Objective 2
-* Learning Objective 3
+* * *
+## Readings
+* Lorem
+* Lorem
+* Lorem
+
+## Discussion
+Ask your students:
+* Lorem
+* Lorem
+* Lorem
