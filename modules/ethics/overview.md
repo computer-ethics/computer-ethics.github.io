@@ -4,7 +4,7 @@ layout: home
 title: Overview
 parent: Professional Ethics and Values
 grand_parent: Modules
-nav_order: 3
+nav_order: 1
 ---
 
 # Overview
