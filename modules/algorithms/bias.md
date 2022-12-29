@@ -1,13 +1,13 @@
 ---
-permalink: /modules/privacy/vulnerable/
+permalink: /modules/algorithms/bias/
 layout: home
-title: Vulnerable Populations
-parent: Privacy, Surveillance, and Free Speech
+title: Bias and Fairness
+parent: Algorithmic Decision-Making
 grand_parent: Modules
-nav_order: 2
+nav_order: 1
 ---
 
-# Vulnerable Populations
+# Bias and Fairness
 Summary of the module goes here.
 
 * * *

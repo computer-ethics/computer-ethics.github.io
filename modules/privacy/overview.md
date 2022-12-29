@@ -4,13 +4,18 @@ layout: home
 title: Overview
 parent: Privacy, Surveillance, and Free Speech
 grand_parent: Modules
-nav_order: 2
+nav_order: 1
 ---
 
-# Module 2. Privacy, Surveillance, and Free Speech
+# Overview
 Summary of the module goes here.
 
-## Learning Objectives
-* Learning Objective 1
-* Learning Objective 2
-* Learning Objective 3
+<h2 class="text-delta">Readings</h2>
+* Lorem
+* Lorem
+* Lorem
+
+<h2 class="text-delta">Discussion Questions</h2>
+* Lorem
+* Lorem
+* Lorem

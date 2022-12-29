@@ -10,7 +10,7 @@ nav_order: 1
 
 The Computer Ethics Education Center at the University of California, Berkeley offers materials and resources to teach undergraduate and graduate students in Computer Science and related disciplines about the social, ethical, and legal implications of computer technologies.
 
-The materials on this website have been contributed by instructors and teaching assistants of Berkeley’s CS195 course (Social Implications of Computer Technology). To find out more information about CS195, please visit: [https://www2.eecs.berkeley.edu/Courses/CS195/](https://www2.eecs.berkeley.edu/Courses/CS195/).
+The materials on this website have been contributed by instructors and teaching assistants of UC Berkeley’s CS195 course (Social Implications of Computer Technology) at the Department of Electrical Engineering and Computer Sciences (EECS). To find out more information about CS195, please visit: [https://www2.eecs.berkeley.edu/Courses/CS195/](https://www2.eecs.berkeley.edu/Courses/CS195/).
 
 ## How to navigate this website?
 
