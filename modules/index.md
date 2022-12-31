@@ -30,3 +30,9 @@ Stay tuned for updates and new modules!
 - [{{ site.policy_txt }}]({{ site.policy_url }})
     - [{{ site.copyright_txt }}]({{ site.copyright_url }})
     - [{{ site.government_txt }}]({{ site.government_url }})
+
+{{ site.h2_available_assignments }}
+- [{{ site.ethics_txt }}]({{ site.ethics_url }})
+    - [Critical Analysis and Argumentation](/modules/ethics/assignments/#assignment-1-critical-analysis-and-argumentation)
+- [{{ site.privacy_txt }}]({{ site.privacy_url }})
+    - [User Interviews](/modules/privacy/assignments/#assignment-1-user-interviews)
