@@ -13,7 +13,7 @@ The *Computer Ethics Education Center* offers materials and resources to teach u
 The materials on this website have been contributed by instructors and teaching assistants of the CS195 course (Social Implications of Computer Technology) offered by the Department of Electrical Engineering and Computer Sciences (EECS) at the University of California, Berkeley. To find out more information about CS195, please visit: [https://www2.eecs.berkeley.edu/Courses/CS195/](https://www2.eecs.berkeley.edu/Courses/CS195/).
 
 ## How to navigate this website?
-The [Syllabus](/syllabus/) page presents a sample syllabus that you can integrate into the design of your computer ethics class or discussion. You are free to use the same syllabus or modify it better to suit your teaching needs.
+The [Syllabus](/syllabus/) page presents a sample syllabus that you can integrate into the design of your computer ethics class or discussion. You are free to use the same syllabus or modify it to better suit your teaching needs.
 
 The [Modules](/modules/) page contains a list of available modules and submodules, each focusing on a specific social, ethical, or legal impact of computer technologies. Each submodule explores a specific topic of the course module and includes pre-sessions readings, discussion questions, and post-session resources that assist in delivering the selected session.
 
