@@ -101,3 +101,33 @@ In addition to the report, please include the following with your submission:
 
 1. The interview guide.
 2. Any notes or recordings from the interviews (at least two) that you used in preparing your report. 
+
+### Grading Rubric
+*Total number of points: 100.*
+
+1. **Interviews. (25 points)**
+    - There is evidence that students conducted at least two interviews. (10 per interview \| 20)
+    - There is evidence that students considered the recruitment process, logistics, and ethics of the interviews. (5)
+2. **Report Content and Presentation. (65 points)**
+    - The report includes names and a description of contributions for each team member. (2)
+    - The report includes a summary of findings from your independent research by considering, for instance, the following questions: (20)\*
+        1. How do activists currently organize and coordinate protests and social movements?
+        2. Which existing solutions do activists use to facilitate this process?
+        3. Are these solutions predominantly technical or non-technical in nature, or is it a combination of both?
+        4. What tasks do these solutions aim to achieve (e.g., communication with other activists, safety reports, real-time status updates, documentation of any unlawful activities, etc.)? 
+        5. What technical, social, and legal issues exist with the current solutions?
+        6. Can those issues be mitigated using a different design approach or are they inherent to the problem at hand?
+    - The summary of findings considers issues of online surveillance and privacy. (5)  
+    - The report describes the findings from the interviews by including the following:
+        1. Themes that emerged from at least two of your interviews; and (7.5 per interview \| 15)
+        2. Whether those themes support or contradict the findings from your independent research. (5)
+    - The report addresses the provided problem statement by including the following:
+        1. Recommendations to the company on the features that the app should include; and (5)
+        2. Considerations when implementing those features. (5)
+    - The report includes sources and references used when writing up your report. (3)
+    - The report is well-written, coherent, presented well, and adheres to the word limit. (5)
+3. **Submission Appendices. (10 points)**
+    - The submission includes the interview guide. (5)
+    - The submission includes notes or recordings from the interviews, as applicable, that were used in preparing the report. (5)
+
+*\*These questions are just examples and other non-trivial considerations would also be awarded points, up to a maximum of 20 for this part of the assignment.*

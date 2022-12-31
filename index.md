@@ -35,6 +35,13 @@ The [Modules](/modules/) page contains a list of available modules and submodule
     - [{{ site.copyright_txt }}]({{ site.copyright_url }})
     - [{{ site.government_txt }}]({{ site.government_url }})
 
+In addition to the reading response assignments, located on the individual submodule pages, you can find larger, project-based assignments:
+{{ site.h2_available_assignments }}
+- [{{ site.ethics_txt }}]({{ site.ethics_url }})
+    - [Critical Analysis and Argumentation](/modules/ethics/assignments/#assignment-1-critical-analysis-and-argumentation)
+- [{{ site.privacy_txt }}]({{ site.privacy_url }})
+    - [User Interviews](/modules/privacy/assignments/#assignment-1-user-interviews)
+
 ## Comments or ideas?
 We are always happy to hear your feedback! Please reach out to us at [computer-ethics[at]berkeley.edu](mailto:computer-ethics@berkeley.edu) with suggestions and questions.
 

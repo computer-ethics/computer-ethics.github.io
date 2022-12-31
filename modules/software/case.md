@@ -8,7 +8,6 @@ nav_order: 1
 ---
 
 # {{ page.title }}
-Summary of the module goes here.
 
 <h2 class="text-delta">Readings</h2>
 {{ site.travis2019boeing }}
@@ -16,6 +15,4 @@ Summary of the module goes here.
 {{ site.koopman2014toyota }}
 
 <h2 class="text-delta">Discussion Questions</h2>
-* Lorem
-* Lorem
-* Lorem
+1. Provide a brief overview of a case study that you read. What insights and lessons can we draw from it in order to prevent similar accidents and ethics violations in the future? 

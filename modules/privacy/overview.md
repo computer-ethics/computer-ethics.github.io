@@ -8,7 +8,6 @@ nav_order: 1
 ---
 
 # {{ page.title }}
-Summary of the module goes here.
 
 <h2 class="text-delta">Readings</h2>
 {{ site.yang2020oped }}
@@ -18,6 +17,6 @@ Summary of the module goes here.
 {{ site.bbc2021microsoft }}
 
 <h2 class="text-delta">Discussion Questions</h2>
-* Lorem
-* Lorem
-* Lorem
+1. What does “privacy” mean to you and when do you have a reasonable expectation of privacy?
+2. Think about examples of surveillance that is enabled or assisted by computer technologies. What are the benefits and dangers of such surveillance? Please refer to specific examples of surveillance in your response.
+3. Do you take any steps to protect your privacy online? Why or why not?
