@@ -8,10 +8,7 @@ has_children: true
 has_toc: false
 ---
 
-# Algorithmic Decision-Making
-Summary of the module goes here.
-
-* * *
-<h2 class="text-delta">Available Submodules</h2>
-* [Bias and Fairness](/modules/algorithms/bias/)
-* [Propaganda and Misinformation](/modules/algorithms/misinformation/)
+# {{ page.title }}
+{{ site.h2_available_submodules }}
+* [{{ site.bias_txt }}]({{ site.bias_url }})
+* [{{ site.misinformation_txt }}]({{ site.misinformation_url }})

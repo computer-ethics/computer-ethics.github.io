@@ -1,17 +1,18 @@
 ---
 permalink: /modules/ethics/
 layout: home
-title: Professional Ethics and Values
+title: Ethics and Values
 parent: Modules
 nav_order: 1
 has_children: true
 has_toc: false
 ---
 
-# Professional Ethics and Values
-Summary of the module goes here.
+# {{ page.title }}
+{{ site.h2_available_submodules }}
+ * [{{ site.conduct_txt }}]({{ site.conduct_url }})
+ * [{{ site.education_txt }}]({{ site.education_url }})
 
-* * *
-<h2 class="text-delta">Available Submodules</h2>
-* [Overview](/modules/ethics/overview/)
-* [Education](/modules/ethics/education/)
+
+{{ site.h2_available_assignments }}
+* [Critical Analysis and Argumentation](/modules/ethics/assignments/#assignment-1-critical-analysis-and-argumentation)
