@@ -1,5 +1,5 @@
 ---
-permalink: /modules/software/case-studies/
+permalink: /modules/software/case/
 layout: home
 title: Case Studies
 parent: Software Risks and Case Studies
