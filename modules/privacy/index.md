@@ -8,11 +8,11 @@ has_children: true
 has_toc: false
 ---
 
-# Privacy, Surveillance, and Free Speech
-Summary of the module goes here.
+# {{ page.title }}
+{{ site.h2_available_submodules }}
+* [{{ site.overview_txt }}]({{ site.overview_url }})
+* [{{ site.vulnerable_txt }}]({{ site.vulnerable_url }})
+* [{{ site.human_txt }}]({{ site.human_url }})
 
-* * *
-<h2 class="text-delta">Available Submodules</h2>
-* [Overview](/modules/privacy/overview/)
-* [Vulnerable Populations](/modules/privacy/vulnerable/)
-* [Human Factors](/modules/privacy/human/)
+{{ site.h2_available_assignments }}
+* [User Interviews](/modules/privacy/assignments/#assignment-1-user-interviews)

@@ -7,13 +7,13 @@ grand_parent: Modules
 nav_order: 1
 ---
 
-# Case Studies
+# {{ page.title }}
 Summary of the module goes here.
 
 <h2 class="text-delta">Readings</h2>
-* Lorem
-* Lorem
-* Lorem
+{{ site.travis2019boeing }}
+{{ site.woodman2017palantir }}
+{{ site.koopman2014toyota }}
 
 <h2 class="text-delta">Discussion Questions</h2>
 * Lorem

@@ -5,16 +5,29 @@ theme: just-the-docs
 
 url: https://computer-ethics.com/
 
+##################################
+# Navigation Structure.
+##################################
+
+# Auxiliary Links.
 aux_links:
   Website Source on GitHub: https://github.com/computer-ethics/computer-ethics.github.io
 
+# External navigation links.
+nav_external_links:
+  - title: Computer Ethics on GitHub
+    url: https://github.com/computer-ethics
+
+  - title: Contact Us
+    url: mailto:computer-ethics@berkeley.edu
+
 ##################################
-# Footer content
+# Footer content.
 ##################################
 
 # Back to top link
 back_to_top: true
-back_to_top_text: "Back to top"
+back_to_top_text: Back to top
 
 footer_content: "This site uses <a href=\"https://github.com/just-the-docs/just-the-docs\">Just the Docs</a>, a documentation theme for Jekyll."
 nav_footer_content: "&copy; 2023 Computer Ethics<br>Distributed under <a href=\"https://github.com/computer-ethics/computer-ethics.github.io/blob/main/LICENSE\">MIT license</a>."
@@ -25,8 +38,180 @@ last_edit_time_format: "%b %e %Y at %I:%M %p" # uses ruby's time format: https:/
 
 # Footer "Edit this page on GitHub" link text
 gh_edit_link: true # show or hide edit this page link
-gh_edit_link_text: "Edit this page on GitHub"
-gh_edit_repository: "https://github.com/computer-ethics/computer-ethics.github.io" # the github URL for your repo
-gh_edit_branch: "main" # the branch that your docs is served from
+gh_edit_link_text: View this page on GitHub
+gh_edit_repository: https://github.com/computer-ethics/computer-ethics.github.io # the github URL for your repo
+gh_edit_branch: main # the branch that your docs is served from
 # gh_edit_source: docs # the source that your files originate from
-gh_edit_view_mode: "blob" # "tree" or "edit" if you want the user to jump into the editor immediately
+gh_edit_view_mode: blob # "tree" or "edit" if you want the user to jump into the editor immediately
+
+##################################
+# Global site variables.
+##################################
+
+# Headers.
+h2_available_submodules: "<h2 class=\"text-delta\">Available Submodules</h2>"
+h2_available_modules_and_submodules: "<h2 class=\"text-delta\">Available Modules and Submodules</h2>"
+h2_available_assignments: "<h2 class=\"text-delta\">Available Assignments</h2>"
+
+
+# Ethics and Values.
+ethics_txt: "Ethics and Values"
+ethics_url: "/modules/ethics/"
+
+# Professional Conduct.
+conduct_txt: "Professional Conduct"
+conduct_url: "/modules/ethics/conduct/"
+
+# Professional Conduct - Materials.
+acm2018code: "* ACM, [\"Code of Ethics and Professional Conduct\"](https://www.acm.org/code-of-ethics), 2018."
+ethical2018risk: "* Ethical OS, [\"Risk Mitigation Checklist\"](https://ethicalos.org/wp-content/uploads/2018/08/EthicalOS_Check-List_080618.pdf), 2018."
+castelvecchi2020prestigious: "* Davide Castelvecchi, [\"Prestigious AI meeting takes steps to improve ethics of research\"](https://www.nature.com/articles/d41586-020-03611-8), 2020."
+munro2018feynman: "* Dan Munro, [\"Feynman's Error: On Ethical Thinking and Drifting\"](https://www.danmunro.ca/blog/2018/11/29/feynmans-error-on-ethical-thinking-and-drifting-nbsp), 2018."
+nissenbaum1996accountability: "* (Skim) Helen Nissenbaum, [\"Accountability in a computerized society\"](https://link.springer.com/article/10.1007/BF02639315), 1996."
+
+# Professional Conduct - Discussion.
+
+# Teaching Ethics.
+education_txt: "Teaching Ethics"
+education_url: "(/modules/ethics/education/)"
+
+# Teaching Ethics - Materials.
+mit2019teaching: "* (Watch) MIT, [\"Teaching Ethics and Policy in Computer Science\"](https://www.youtube.com/watch?v=Kc2WbkDpQQc), 2019."
+krishna2020teaching: "* Shashi Krishna, [\"Teaching Ethical Computing\"](https://computethought.blog/2020/04/26/teaching-ethical-computing/), 2020."
+schulze1996teaching: "* Kay G. Schulze and Frances S. Grodzinsky, [\"Teaching ethical issues in computer science: what worked and what didn't\"](https://dl.acm.org/doi/10.1145/236462.236517), 1996."
+wu2019optimize: "* Jimmy Wu, [\"Optimize What?\"](https://communemag.com/optimize-what/), 2019."
+karoff2019embedding: "* Paul Karoff, [\"Embedding ethics in computer science curriculum\"](https://news.harvard.edu/gazette/story/2019/01/harvard-works-to-embed-ethics-in-computer-science-curriculum/), 2019."
+abate2020computer: "* Tom Abate, [\"How the Computer Science Department is teaching ethics to its students\"](https://engineering.stanford.edu/magazine/how-computer-science-department-teaching-ethics-its-students), 2020."
+florida2019weaving: "* Robert Florida, [\"Weaving Ethics Into Columbia's Computer Science Curriculum\"](https://science.fas.columbia.edu/news/weaving-ethics-into-columbias-computer-science-curriculum/), 2019."
+
+# Teaching Ethics - Discussion.
+
+
+# Software Risks and Case Studies.
+software_txt: "Software Risks and Case Studies"
+software_url: "/modules/software/"
+
+# Case Studies.
+case_txt: "Case Studies"
+case_url: "/modules/software/case/"
+
+# Case Studies - Materials.
+travis2019boeing: "* Gregory Travis, [\"How the Boeing 737 MAX Disaster Looks to a Software Developer\"](https://spectrum.ieee.org/how-the-boeing-737-max-disaster-looks-to-a-software-developer), 2019."
+woodman2017palantir: "* Spencer Woodman, [\"Palantir Provides the Engine for Donald Trump's Deportation Machine\"](https://theintercept.com/2017/03/02/palantir-provides-the-engine-for-donald-trumps-deportation-machine/), 2017."
+koopman2014toyota: "* Phil Koopman, [\"A Case Study of Toyota Unintended Acceleration and Software Safety\"](https://ptolemy.berkeley.edu/projects/chess/pubs/1081/koopman14_toyota_ua_slides.pdf), 2014."
+
+# Case Studies - Discussion.
+
+
+# Attention and Engagement.
+attention_txt: "Attention and Engagement"
+attention_url: "/modules/software/attention/"
+
+# Attention and Engagement - Materials.
+ted2015what: "* (Watch) Nir Eyal / TED Institute, [\"What makes some technology so habit-forming?\"](https://www.youtube.com/watch?v=11dYx_rW_Ks), 2015."
+eyal2012hooked: "* (or if you prefer to read) Nir Eyal, [\"The Hooked Model: How to Manufacture Desire in 4 Steps\"](https://www.nirandfar.com/how-to-manufacture-desire/), 2012."
+nngroup2019attention: "* Nielsen Norman Group, [\"The Attention Economy\"](https://www.nngroup.com/articles/attention-economy/), 2019."
+rozenfeld2018persuasive: "* Monica Rozenfeld, [\"How Persuasive Technology Can Change Your Habits\"](https://spectrum.ieee.org/how-persuasive-technology-can-change-your-habits), 2018."
+haynes2018dopamine: "* Trevor Haynes, [\"Dopamine, Smartphones & You: A battle for your time\"](https://sitn.hms.harvard.edu/flash/2018/dopamine-smartphones-battle-time/), 2018."
+roose2019ditched: "* Kevin Roose, [\"Do Not Disturb: How I Ditched My Phone and Unbroke My Brain\"](https://www.nytimes.com/2019/02/23/business/cell-phone-addiction.html), 2019."
+gartenberg2018apple: "* Chaim Gartenberg, [\"How do Apple's Screen Time and Google Digital Wellbeing stack up?\"](https://www.theverge.com/2018/6/5/17426922/apple-digital-health-vs-google-wellbeing-time-well-spent-wwdc-2018), 2018."
+cht2021technology: "* (Skim) Center for Humane Technology, [\"How does technology use design to influence my behavior?\"](https://www.humanetech.com/youth/persuasive-technology), 2021."
+
+# Attention and Engagement - Discussion.
+
+# Privacy, Surveillance, and Free Speech.
+privacy_txt: "Privacy, Surveillance, and Free Speech"
+privacy_url: "/modules/privacy/"
+
+# Overview.
+overview_txt: "Overview"
+overview_url: "/modules/privacy/overview/"
+
+# Overview - Materials.
+yang2020oped: "* Andrew Yang, [\"Op-Ed by Andrew Yang: Make tech companies pay you for your data\"](https://www.latimes.com/opinion/story/2020-06-23/andrew-yang-data-dividend-tech-privacy), 2020."
+menand2018why: "* Louis Menand, [\"Why Do We Care So Much About Privacy?\"](https://www.newyorker.com/magazine/2018/06/18/why-do-we-care-so-much-about-privacy), 2018."
+macmillan2019student: "* Douglas MacMillan and Nick Anderson, [\"Student tracking, secret scores: How college admissions offices rank prospects before they apply\"](https://www.washingtonpost.com/business/2019/10/14/colleges-quietly-rank-prospective-students-based-their-personal-data/), 2019."
+poulson2019used: "* Jack Poulson, [\"I Used to Work for Google. I Am a Conscientious Objector.\"](https://www.nytimes.com/2019/04/23/opinion/google-privacy-china.html), 2019."
+bbc2021microsoft: "* BBC News, [\"Microsoft says error caused 'Tank Man' Bing censorship\"](https://www.bbc.com/news/world-asia-57367100), 2021."
+
+# Vulnerable Populations.
+vulnerable_txt: "Vulnerable Populations"
+vulnerable_url: "/modules/privacy/vulnerable/"
+
+# Vulnerable Populations - Materials.
+simonite2020cryptoharlem: "* (Watch) Tom Simonite, [\"CryptoHarlem's Founder Warns Against 'Digital Stop and Frisk'\"](https://www.wired.com/story/cryptoharlem-matt-mitchell-digital-stop-and-frisk/), 2020."
+cox2019gave: "* Joseph Cox, [\"I Gave a Bounty Hunter $300. Then He Located Our Phone\"](https://www.vice.com/en/article/nepxbz/i-gave-a-bounty-hunter-300-dollars-located-phone-microbilt-zumigo-tmobile), 2019."
+funk2021apple: "* Allie Funk, [\"Apple's AirTag offers convenience but poses serious threats — and it's not alone\"](https://www.washingtonpost.com/opinions/2021/05/13/apple-airtag-tracking-threats-abuse/), 2021."
+morrison2020how: "* Sara Morrison and Adam Clark Estes, [\"How protesters are turning the tables on police surveillance\"](https://www.vox.com/recode/2020/6/12/21284113/police-protests-surveillance-instagram-washington-dc), 2020."
+marczak2014ehen: "* (Skim) William R. Marczak et al., [\"When Governments Hack Opponents: A Look at Actors and Technology\"](https://www.usenix.org/system/files/conference/usenixsecurity14/sec14-paper-marczak.pdf), 2014."
+biddle2020police: "* (Skim) Sam Biddle, [\"Police Surveilled George Floyd Protests with the Help from Twitter-affiliated Startup Dataminr\"](https://theintercept.com/2020/07/09/twitter-dataminr-police-spy-surveillance-black-lives-matter-protests/), 2020." 
+
+# Human Factors.
+human_txt: "Human Factors"
+human_url: "/modules/privacy/human/"
+
+# Human Factors - Materials.
+acquisti2015privacy: "* Alessandfro Acquisti, Laura Brandimarte, and George Loewenstein, [\"Privacy and human behavior in the age of information\"](https://www.science.org/doi/10.1126/science.aaa1465), 2015."
+bongiovanni2020privacy: "* Ivano Bongiovanni, Karen Renaud, and Noura Aleisa, [\"The privacy paradox: we claim we care about our data, so why don't our actions match?\"](https://theconversation.com/the-privacy-paradox-we-claim-we-care-about-our-data-so-why-dont-our-actions-match-143354), 2020."
+pardes2020facebook: "* Arielle Pardes, [\"How Facebook and Other Sites Manipulate Your Privacy Choices\"](https://www.wired.com/story/facebook-social-media-privacy-dark-patterns/), 2020."
+kostka2019what: "* Genia Kostka, [\"What do people in China think about 'social credit' monitoring?\"](https://www.washingtonpost.com/politics/2019/03/21/what-do-people-china-think-about-social-credit-monitoring/), 2019."
+ighi2020covid: "* (Skim) Institute of Global Health Innovation (IGHI), [\"Covid-19: Perceptions of Contact Tracing Global Report\"](https://www.imperial.ac.uk/media/imperial-college/institute-of-global-health-innovation/Global_ICL-YouGov-Covid-19-Behaviour-Tracker_contact-tracing_20200821_vF%5B1%5D.pdf), 2020."
+laura2012economics: "* (Skim, skip chapter 4) Laura Brandimarte and Alessandro Acquisti, [\"The Economics of Privacy\"](https://academic.oup.com/edited-volume/28259/chapter-abstract/213408789?redirectedFrom=fulltext), 2012."
+
+# Algorithmic Decision-Making.
+algorithms_txt: "Algorithmic Decision-Making"
+algorithms_url: "/modules/algorithms/"
+
+# Bias and Fairness.
+bias_txt: "Bias and Fairness"
+bias_url: "/modules/algorithms/bias/"
+
+# Bias and Fairness - Materials.
+sahami2021very: "* (Background) Mehran Sahami, [\"A Very Brief Introduction to Probability and Machine Learning with the Perceptron Algorithm\"](https://drive.google.com/file/d/1WXgpzCYU6GC7P1yBKhrMPjehdTz1Ghqd/view), 2021."
+angwin2016machine: "* Julia Angwin et al., [\"Machine Bias\"](https://www.propublica.org/article/machine-bias-risk-assessments-in-criminal-sentencing), 2016."
+angwin2016make: "* Julia Angwin, [\"Make Algorithms Accountable\"](https://www.nytimes.com/2016/08/01/opinion/make-algorithms-accountable.html), 2016."
+corbett2016computer: "* Sam Corbett-Davies et al., [\"A computer program used for bail and sentencing decisions was labeled biased against blacks. It's actually not that clear\"](https://www.washingtonpost.com/news/monkey-cage/wp/2016/10/17/can-an-algorithm-be-racist-our-analysis-is-more-cautious-than-propublicas/#comments), 2016."
+barocas2022fairness: "* (Skim) Solon Barocas, Moritz Hardt, Arvind Narayanan, [\"Fairness and Machine Learning\"](https://fairmlbook.org/pdf/fairmlbook.pdf), 2022."
+stray2019can: "* (Explore) Karen Hao and Jonathan Stray, [\"Can you make AI fairer than a judge? Play our courtroom algorithm game\"](https://www.technologyreview.com/2019/10/17/75285/ai-fairer-than-judge-criminal-risk-assessment-algorithm/), 2019."
+wattenberg2016attacking: "* (Explore) Martin Wattenberg et al., [\"Attacking discrimination with smarter machine learning\"](https://research.google.com/bigpicture/attacking-discrimination-in-ml/), 2016."
+
+# Propaganda and Misinformation.
+misinformation_txt: "Propaganda and Misinformation"
+misinformation_url: "/modules/algorithms/misinformation/"
+
+# Propaganda and Misinformation - Materials.
+verizon2020guide: "* Verizon, [A Guide to Misinformation: How to Spot and Combat Fake News](\"https://web.archive.org/web/20201226045612/https://www.verizon.com/info/technology/fake-news-on-social-media/\"), 2020."
+lada2021machine: "* Akos Lada, Meihong Wang, Tak Yan, [How machine learning powers Facebook's News Feed ranking algorithm](\"https://engineering.fb.com/2021/01/26/ml-applications/news-feed-ranking/\"), 2021."
+hao2021facebook: "* Karen Hao, [The Facebook whistleblower says its algorithms are dangerous. Here's why.](\"https://www.technologyreview.com/2021/10/05/1036519/facebook-whistleblower-frances-haugen-algorithms/\"), 2021."
+meserole2018how: "* Chris Meserole, [How misinformation spreads on social media—And what to do about it](\"https://www.brookings.edu/blog/order-from-chaos/2018/05/09/how-misinformation-spreads-on-social-media-and-what-to-do-about-it/\"), 2018."
+menczer2020information: "* Filippo Menczer and Thomas Hills, [Information Overload Helps Fake News Spread, and Social Media Knows It](\"https://www.scientificamerican.com/article/information-overload-helps-fake-news-spread-and-social-media-knows-it/\"), 2020."
+wsj2021how: "* (Skim) The Wall Street Journal, [\"How to Fix Social Media\"](https://www.wsj.com/articles/how-to-fix-social-media-11635526928), 2021."
+diresta2021misinformation: "* (Skim) Renée DiResta, [\"It's Not Misinformation. It's Amplified Propaganda\"](https://www.theatlantic.com/ideas/archive/2021/10/disinformation-propaganda-amplification-ampliganda/620334/), 2021."
+
+# Technology Law and Policy.
+policy_txt: "Technology Law and Policy"
+policy_url: "/modules/policy/"
+
+# Intellectual Property, Copyright, and Patents.
+copyright_txt: "Intellectual Property, Copyright, and Patents"
+copyright_url: "/modules/policy/copyright/"
+
+# Intellectual Property, Copyright, and Patents - Materials.
+duke2002intellectual: "* (Background) CS Department at Duke University, [\"Intellectual Property for CS Students\"](https://courses.cs.duke.edu/cps182s/fall02/cscopyright/index.htm), 2002."
+chm2011software: "* (Watch) Computer History Museum, [\"Software Patent Debate\"](https://www.youtube.com/watch?v=f6Dh5NjlZMk), 2011."
+patel2012broken: "* Nilay Patel, [\"The 'broken patent system': how we got here and how to fix it\"](https://www.theverge.com/2011/08/11/broken-patent-system), 2012."
+stallman2021misinterpreting: "* Richard Stallman, [\"Misinterpreting Copyright—A Series of Errors\"](https://www.gnu.org/philosophy/misinterpreting-copyright.html), 2021."
+doctorow2016america: "* Cory Doctorow, [\"America's broken digital copyright law is about to be challenged in court\"](https://www.theguardian.com/technology/2016/jul/21/digital-millennium-copyright-act-eff-supreme-court), 2016."
+oberhaus2019internet: "* (Skim) Daniel Oberhaus, [\"The Internet Was Built on the Free Labor of Open Source Developers. Is That Sustainable?\"](https://www.vice.com/en/article/43zak3/the-internet-was-built-on-the-free-labor-of-open-source-developers-is-that-sustainable), 2019."
+
+# Government and Technology.
+government_txt: "Government and Technology"
+government_url: "/modules/policy/government/"
+
+# Government and Technology - Materials.
+zetter2016congress: "* Kim Zetter, [\"Of Course Congress Is Clueless About Tech—It Killed Its Tutor\"](https://www.wired.com/2016/04/office-technology-assessment-congress-clueless-tech-killed-tutor/), 2016."
+nagle2021digital: "* Frank Nagle, [\"Digital infrastructure is more than just broadband: What the US can learn from Europe's open source technology policy study\"](https://www.brookings.edu/research/digital-infrastructure-is-more-than-just-broadband-what-the-u-s-can-learn-from-europes-open-source-technology-policy-study/), 2021."
+disparte2021move: "* Dante Disparte and Tomicah Tillemann, [\"To Move Forward, Federal IT Infrastructure Needs Resiliency\"](https://fedtechmagazine.com/article/2021/02/move-forward-federal-it-infrastructure-needs-resiliency), 2021."
+naylor2018fifth: "* Brian Naylor, [\"'The Fifth Risk' Paints A Portrait Of A Government Led By The Uninterested\"](https://www.npr.org/2018/10/02/652563904/the-fifth-risk-paints-a-portrait-of-a-government-led-by-the-uninterested), 2018."
+harvard2016failed: "* Technology and Operations Management at Harvard University, [\"The Failed Launch Of www.HealthCare.gov\"](https://d3.harvard.edu/platform-rctom/submission/the-failed-launch-of-www-healthcare-gov/), 2016."
+kearney2015infrastructure: "* (Skim) Kearney, [\"IT infrastructure: pillar of digital government\"](https://www.kearney.com/public-sector/article/-/insights/it-infrastructure-pillar-of-digital-government), 2015." 

@@ -7,13 +7,17 @@ grand_parent: Modules
 nav_order: 1
 ---
 
-# Bias and Fairness
+# {{ page.title }}
 Summary of the module goes here.
 
 <h2 class="text-delta">Readings</h2>
-* Lorem
-* Lorem
-* Lorem
+{{ site.sahami2021very }}
+{{ site.angwin2016machine }}
+{{ site.angwin2016make }}
+{{ site.corbett2016computer }}
+{{ site.barocas2022fairness }}
+{{ site.stray2019can }}
+{{ site.wattenberg2016attacking }}
 
 <h2 class="text-delta">Discussion Questions</h2>
 * Lorem

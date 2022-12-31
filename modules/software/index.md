@@ -8,10 +8,7 @@ has_children: true
 has_toc: false
 ---
 
-# Software Risks and Case Studies
-Summary of the module goes here.
-
-* * *
-<h2 class="text-delta">Available Submodules</h2>
+# {{ page.title }}
+{{ site.h2_available_submodules }}
 * [Case Studies](/modules/software/case/)
 * [Attention and Engagement](/modules/software/attention/)
