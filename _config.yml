@@ -73,7 +73,7 @@ nissenbaum1996accountability: "* (Skim) Helen Nissenbaum, [\"Accountability in a
 
 # Teaching Ethics.
 education_txt: "Teaching Ethics"
-education_url: "(/modules/ethics/education/)"
+education_url: "/modules/ethics/education/"
 
 # Teaching Ethics - Materials.
 mit2019teaching: "* (Watch) MIT, [\"Teaching Ethics and Policy in Computer Science\"](https://www.youtube.com/watch?v=Kc2WbkDpQQc), 2019."

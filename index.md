@@ -8,7 +8,7 @@ nav_order: 1
 ![Artificial intelligence, conceptual computer artwork. Human hand (right) touching fingers with a robot's hand (left), mimicking Michelangelo's painting The Creation of Adam (in the Sistine Chapel, Rome, Italy) where two pointing hands meeting signify the biblical story of the creation of Adam by God. This image could symbolise humans creating robots.](assets/images/logo.jpg "Artificial intelligence, artwork")
 
 # Welcome to Computer Ethics Education Center!
-The [Computer Ethics Education Center](https://computer-ethics.com/modules/) offers materials and resources to teach undergraduate and graduate students in Computer Science and related disciplines about the social, ethical, and legal implications of computer technologies.
+The *Computer Ethics Education Center* offers materials and resources to teach undergraduate and graduate students in Computer Science and related disciplines about the social, ethical, and legal implications of computer technologies.
 
 The materials on this website have been contributed by instructors and teaching assistants of the CS195 course (Social Implications of Computer Technology) offered by the Department of Electrical Engineering and Computer Sciences (EECS) at the University of California, Berkeley. To find out more information about CS195, please visit: [https://www2.eecs.berkeley.edu/Courses/CS195/](https://www2.eecs.berkeley.edu/Courses/CS195/).
 
