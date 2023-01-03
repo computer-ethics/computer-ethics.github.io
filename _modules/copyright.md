@@ -3,19 +3,21 @@ permalink: /modules/policy/copyright/
 layout: home
 title: Intellectual Property, Copyright, and Patents
 parent: Technology Law and Policy
-grand_parent: Modules
 nav_order: 1
+readings:
+    - "(Background) CS Department at Duke University, [\"Intellectual Property for CS Students\"](https://courses.cs.duke.edu/cps182s/fall02/cscopyright/index.htm), 2002."
+    - "(Watch) Computer History Museum, [\"Software Patent Debate\"](https://www.youtube.com/watch?v=f6Dh5NjlZMk), 2011."
+    - "Nilay Patel, [\"The 'broken patent system': how we got here and how to fix it\"](https://www.theverge.com/2011/08/11/broken-patent-system), 2012."
+    - "Richard Stallman, [\"Misinterpreting Copyright—A Series of Errors\"](https://www.gnu.org/philosophy/misinterpreting-copyright.html), 2021."
+    - "Cory Doctorow, [\"America's broken digital copyright law is about to be challenged in court\"](https://www.theguardian.com/technology/2016/jul/21/digital-millennium-copyright-act-eff-supreme-court), 2016."
+    - "(Skim) Daniel Oberhaus, [\"The Internet Was Built on the Free Labor of Open Source Developers. Is That Sustainable?\"](https://www.vice.com/en/article/43zak3/the-internet-was-built-on-the-free-labor-of-open-source-developers-is-that-sustainable), 2019."
 ---
 
 # {{ page.title }}
-
 <h2 class="text-delta">Readings</h2>
-{{ site.duke2002intellectual }}
-{{ site.chm2011software }}
-{{ site.patel2012broken }}
-{{ site.stallman2021misinterpreting }}
-{{ site.doctorow2016america }}
-{{ site.oberhaus2019internet }}
+{% for reading in page.readings -%}
+* {{ reading }}
+{% endfor %}
 
 <h2 class="text-delta">Reading Responses</h2>
 Please answer the following two questions using 150 words or less for each response:

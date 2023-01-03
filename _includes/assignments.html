@@ -1,0 +1,8 @@
+{% assign ethics = site.modules | where:"permalink", "/modules/ethics/"  | first %}
+{% assign privacy = site.modules | where:"permalink", "/modules/privacy/"  | first %}
+
+{{ site.h2_available_assignments }}
+- [{{ ethics.title }}]({{ ethics.permalink }})
+    - [Critical Analysis and Argumentation](/modules/ethics/assignments/#assignment-1-critical-analysis-and-argumentation)
+- [{{ privacy.title }}]({{ privacy.permalink }})
+    - [User Interviews](/modules/privacy/assignments/#assignment-1-user-interviews)

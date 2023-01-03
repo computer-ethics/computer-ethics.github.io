@@ -15,32 +15,12 @@ The materials on this website have been contributed by instructors and teaching 
 ## How to navigate this website?
 The [Syllabus](/syllabus/) page presents a sample syllabus that you can integrate into the design of your computer ethics class or discussion. You are free to use the same syllabus or modify it to better suit your teaching needs.
 
-The [Modules](/modules/) page contains a list of available modules and submodules, each focusing on a specific social, ethical, or legal impact of computer technologies. Each submodule explores a specific topic of the course module and includes pre-sessions readings, discussion questions, and post-session resources that assist in delivering the selected session.
+The navigation lists available modules and submodules, each focusing on a specific social, ethical, or legal impact of computer technologies. Each submodule explores a specific topic of the course module and includes pre-sessions readings, discussion questions, and post-session resources that assist in delivering the selected session.
 
-{{ site.h2_available_modules_and_submodules }}
-- [{{ site.ethics_txt }}]({{ site.ethics_url }})
-    - [{{ site.conduct_txt }}]({{ site.conduct_url }})
-    - [{{ site.education_txt }}]({{ site.education_url }})
-- [{{ site.software_txt }}]({{ site.software_url }})
-    - [{{ site.case_txt }}]({{ site.case_url }})
-    - [{{ site.attention_txt }}]({{ site.attention_url }})
-- [{{ site.privacy_txt }}]({{ site.privacy_url }})
-    - [{{ site.overview_txt }}]({{ site.overview_url }})
-    - [{{ site.vulnerable_txt }}]({{ site.vulnerable_url }})
-    - [{{ site.human_txt }}]({{ site.human_url }})
-- [{{ site.algorithms_txt }}]({{ site.algorithms_url }})
-    - [{{ site.bias_txt }}]({{ site.bias_url }})
-    - [{{ site.misinformation_txt }}]({{ site.misinformation_url }})
-- [{{ site.policy_txt }}]({{ site.policy_url }})
-    - [{{ site.copyright_txt }}]({{ site.copyright_url }})
-    - [{{ site.government_txt }}]({{ site.government_url }})
+{% include modules.html %}
 
 In addition to the reading response assignments, located on the individual submodule pages, you can find larger, project-based assignments:
-{{ site.h2_available_assignments }}
-- [{{ site.ethics_txt }}]({{ site.ethics_url }})
-    - [Critical Analysis and Argumentation](/modules/ethics/assignments/#assignment-1-critical-analysis-and-argumentation)
-- [{{ site.privacy_txt }}]({{ site.privacy_url }})
-    - [User Interviews](/modules/privacy/assignments/#assignment-1-user-interviews)
+{% include assignments.html %}
 
 ## Comments or ideas?
 We are always happy to hear your feedback! Please reach out to us at [computer-ethics[at]berkeley.edu](mailto:computer-ethics@berkeley.edu) with suggestions and questions.

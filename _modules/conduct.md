@@ -3,18 +3,20 @@ permalink: /modules/ethics/conduct/
 layout: home
 title: Professional Conduct
 parent: Ethics and Values
-grand_parent: Modules
 nav_order: 1
+readings:
+    - "ACM, [\"Code of Ethics and Professional Conduct\"](https://www.acm.org/code-of-ethics), 2018."
+    - "Ethical OS, [\"Risk Mitigation Checklist\"](https://ethicalos.org/wp-content/uploads/2018/08/EthicalOS_Check-List_080618.pdf), 2018."
+    - "Davide Castelvecchi, [\"Prestigious AI meeting takes steps to improve ethics of research\"](https://www.nature.com/articles/d41586-020-03611-8), 2020."
+    - "Dan Munro, [\"Feynman's Error: On Ethical Thinking and Drifting\"](https://www.danmunro.ca/blog/2018/11/29/feynmans-error-on-ethical-thinking-and-drifting-nbsp), 2018."
+    - "(Skim) Helen Nissenbaum, [\"Accountability in a computerized society\"](https://link.springer.com/article/10.1007/BF02639315), 1996."
 ---
 
 # {{ page.title }}
-
 <h2 class="text-delta">Readings</h2>
-{{ site.acm2018code }}
-{{ site.ethical2018risk }}
-{{ site.castelvecchi2020prestigious }}
-{{ site.munro2018feynman }}
-{{ site.nissenbaum1996accountability }}
+{% for reading in page.readings -%}
+* {{ reading }}
+{% endfor %}
 
 <h2 class="text-delta">Reading Responses</h2>
 Please answer the following two questions using 150 words or less for each response:

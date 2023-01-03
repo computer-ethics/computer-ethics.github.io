@@ -18,21 +18,42 @@ This page presents the syllabus, assignments, and their grade contribution used 
 
 ## Schedule
 
-| Module                                                 | Topic                                                          | Assigned Materials      |
-|:-------------------------------------------------------|:---------------------------------------------------------------|:------------------------|
-| N/A                                                    | Introduction and Logistics                                     | N/A                     |
-| [{{ site.ethics_txt }}]({{ site.ethics_url }})         | [{{ site.conduct_txt }}]({{ site.conduct_url }})               | {{ site.acm2018code }}<br>{{ site.ethical2018risk }}<br>{{ site.castelvecchi2020prestigious }}<br>{{ site.munro2018feynman }}<br>{{ site.nissenbaum1996accountability }} |
-| [{{ site.ethics_txt }}]({{ site.ethics_url }})         | [{{ site.education_txt }}]({ site.education_url })             | {{ site.mit2019teaching }}<br>{{ site.krishna2020teaching }}<br>{{ site.schulze1996teaching }}<br>{{ site.wu2019optimize }}<br>{{ site.karoff2019embedding }}<br>{{ site.abate2020computer }}<br>{{ site.florida2019weaving }} |
-| [{{ site.privacy_txt }}]({{ site.privacy_url }})       | [{{ site.overview_txt }}]({{ site.overview_url }})             | {{ site.yang2020oped }}<br>{{ site.menand2018why }}<br>{{ site.macmillan2019student }}<br>{{ site.poulson2019used }}<br>{{ site.bbc2021microsoft }}  |
-| [{{ site.privacy_txt }}]({{ site.privacy_url }})       | [{{ site.vulnerable_txt }}]({{ site.vulnerable_url }})         | {{ site.simonite2020cryptoharlem }}<br>{{ site.cox2019gave }}<br>{{ site.funk2021apple }}<br>{{ site.morrison2020how }}<br>{{ site.marczak2014ehen }}<br>{{ site.biddle2020police }}  |
-| [{{ site.privacy_txt }}]({{ site.privacy_url }})       | [{{ site.human_txt }}]({{ site.human_url }})                   | {{ site.acquisti2015privacy }}<br>{{ site.bongiovanni2020privacy }}<br>{{ site.pardes2020facebook }}<br>{{ site.kostka2019what }}<br>{{ site.ighi2020covid }}<br>{{ site.laura2012economics }} |
-| [{{ site.software_txt }}]({{ site.software_url }})     | [{{ site.case_txt }}]({{ site.case_url}})                      | {{ site.travis2019boeing }}<br>{{ site.woodman2017palantir }}<br>{{ site.koopman2014toyota }}  |
-| [{{ site.software_txt }}]({{ site.software_url }})     | [{{ site.attention_txt }}]({{ site.attention_url }})           | {{ site.ted2015what }}<br>{{ site.eyal2012hooked }}<br>{{ site.nngroup2019attention }}<br>{{ site.rozenfeld2018persuasive }}<br>{{ site.haynes2018dopamine }}<br>{{ site.roose2019ditched }}<br>{{ site.gartenberg2018apple }}<br>{{ site.cht2021technology }}  |
-| [{{ site.algorithms_txt }}]({{ site.algorithms_url }}) | [{{ site.bias_txt }}]({{ site.bias_url }})                     | {{ site.sahami2021very }}<br>{{ site.angwin2016machine }}<br>{{ site.angwin2016make }}<br>{{ site.corbett2016computer }}<br>{{ site.barocas2022fairness }}<br>{{ site.stray2019can }}<br>{{ site.wattenberg2016attacking }}  |
-| [{{ site.algorithms_txt }}]({{ site.algorithms_url }})  | [{{ site.misinformation_txt }}]({{ site.misinformation_url }}) | {{ site.verizon2020guide }}<br>{{ site.lada2021machine }}<br>{{ site.hao2021facebook }}<br>{{ site.meserole2018how }}<br>{{ site.menczer2020information }}<br>{{ site.wsj2021how }}<br>{{ site.diresta2021misinformation }} |          
-| [{{ site.policy_txt }}]({{ site.policy_url }})         | [{{ site.copyright_txt }}]({{ site.copyright_url }})           | {{ site.duke2002intellectual }}<br>{{ site.chm2011software }}<br>{{ site.patel2012broken }}<br>{{ site.stallman2021misinterpreting }}<br>{{ site.doctorow2016america }}<br>{{ site.oberhaus2019internet }} |       
-| [{{ site.policy_txt }}]({{ site.policy_url }})         | [{{ site.government_txt }}]({{ site.government_url }})         | {{ site.zetter2016congress }}<br>{{ site.nagle2021digital }}<br>{{ site.disparte2021move }}<br>{{ site.naylor2018fifth }}<br>{{ site.harvard2016failed }}<br>{{ site.kearney2015infrastructure }} |         
-| N/A                                                    | Conclusion and Wrap-up                                         | N/A                     |       
+{% assign ethics = site.modules | where:"permalink", "/modules/ethics/"  | first %}
+{% assign conduct = site.modules | where:"permalink", "/modules/ethics/conduct/"  | first %}
+{% assign education = site.modules | where:"permalink", "/modules/ethics/education/"  | first %}
+
+{% assign privacy = site.modules | where:"permalink", "/modules/privacy/"  | first %}
+{% assign overview = site.modules | where:"permalink", "/modules/privacy/overview/"  | first %}
+{% assign vulnerable = site.modules | where:"permalink", "/modules/privacy/vulnerable/"  | first %}
+{% assign human = site.modules | where:"permalink", "/modules/privacy/human/"  | first %}
+
+{% assign software = site.modules | where:"permalink", "/modules/software/"  | first %}
+{% assign case = site.modules | where:"permalink", "/modules/software/case/"  | first %}
+{% assign attention = site.modules | where:"permalink", "/modules/software/attention/"  | first %}
+
+{% assign algorithms = site.modules | where:"permalink", "/modules/algorithms/"  | first %}
+{% assign bias = site.modules | where:"permalink", "/modules/algorithms/bias/"  | first %}
+{% assign misinformation = site.modules | where:"permalink", "/modules/algorithms/misinformation/"  | first %}
+
+{% assign policy = site.modules | where:"permalink", "/modules/policy/"  | first %}
+{% assign copyright = site.modules | where:"permalink", "/modules/policy/copyright/"  | first %}
+{% assign government = site.modules | where:"permalink", "/modules/policy/government/"  | first %}
+
+| Module                                               | Topic                                                        | Assigned Materials                                                           |
+|:-----------------------------------------------------|:-------------------------------------------------------------|:-----------------------------------------------------------------------------|
+| N/A                                                  | Introduction and Logistics                                   | N/A                                                                          |
+| [{{ ethics.title }}]({{ ethics.permalink }})         | [{{ conduct.title }}]({{ conduct.permalink }})               | {% for reading in conduct.readings %}        * {{ reading }}<br>{% endfor %} | 
+| [{{ ethics.title }}]({{ ethics.permalink }})         | [{{ education.title }}]({ education.permalink })             | {% for reading in education.readings %}      * {{ reading }}<br>{% endfor %} |
+| [{{ privacy.title }}]({{ privacy.permalink }})       | [{{ overview.title }}]({{ overview.permalink }})             | {% for reading in overview.readings %}       * {{ reading }}<br>{% endfor %} |
+| [{{ privacy.title }}]({{ privacy.permalink }})       | [{{ vulnerable.title }}]({{ vulnerable.permalink }})         | {% for reading in vulnerable.readings %}     * {{ reading }}<br>{% endfor %} |
+| [{{ privacy.title }}]({{ privacy.permalink }})       | [{{ human.title }}]({{ human.permalink }})                   | {% for reading in human.readings %}          * {{ reading }}<br>{% endfor %} |
+| [{{ software.title }}]({{ software.permalink }})     | [{{ case.title }}]({{ case.permalink }})                     | {% for reading in case.readings %}           * {{ reading }}<br>{% endfor %} |
+| [{{ software.title }}]({{ software.permalink }})     | [{{ attention.title }}]({{ attention.permalink }})           | {% for reading in attention.readings %}      * {{ reading }}<br>{% endfor %} |
+| [{{ algorithms.title }}]({{ algorithms.permalink }}) | [{{ bias.title }}]({{ bias.permalink }})                     | {% for reading in bias.readings %}           * {{ reading }}<br>{% endfor %} |
+| [{{ algorithms.title }}]({{ algorithms.permalink }}) | [{{ misinformation.title }}]({{ misinformation.permalink }}) | {% for reading in misinformation.readings %} * {{ reading }}<br>{% endfor %} |          
+| [{{ policy.title }}]({{ policy.permalink }})         | [{{ copyright.title }}]({{ copyright.permalink }})           | {% for reading in copyright.readings %}      * {{ reading }}<br>{% endfor %} |       
+| [{{ policy.title }}]({{ policy.permalink }})         | [{{ government.title }}]({{ government.permalink }})         | {% for reading in government.readings %}     * {{ reading }}<br>{% endfor %} |         
+| N/A                                                  | Conclusion and Wrap-up                                       | N/A                                                                          |       
 
 ## Assessment
 

@@ -1,0 +1,38 @@
+{% assign ethics = site.modules | where:"permalink", "/modules/ethics/"  | first %}
+{% assign conduct = site.modules | where:"permalink", "/modules/ethics/conduct/"  | first %}
+{% assign education = site.modules | where:"permalink", "/modules/ethics/education/"  | first %}
+
+{% assign privacy = site.modules | where:"permalink", "/modules/privacy/"  | first %}
+{% assign overview = site.modules | where:"permalink", "/modules/privacy/overview/"  | first %}
+{% assign vulnerable = site.modules | where:"permalink", "/modules/privacy/vulnerable/"  | first %}
+{% assign human = site.modules | where:"permalink", "/modules/privacy/human/"  | first %}
+
+{% assign software = site.modules | where:"permalink", "/modules/software/"  | first %}
+{% assign case = site.modules | where:"permalink", "/modules/software/case/"  | first %}
+{% assign attention = site.modules | where:"permalink", "/modules/software/attention/"  | first %}
+
+{% assign algorithms = site.modules | where:"permalink", "/modules/algorithms/"  | first %}
+{% assign bias = site.modules | where:"permalink", "/modules/algorithms/bias/"  | first %}
+{% assign misinformation = site.modules | where:"permalink", "/modules/algorithms/misinformation/"  | first %}
+
+{% assign policy = site.modules | where:"permalink", "/modules/policy/"  | first %}
+{% assign copyright = site.modules | where:"permalink", "/modules/policy/copyright/"  | first %}
+{% assign government = site.modules | where:"permalink", "/modules/policy/government/"  | first %}
+
+{{ site.h2_available_modules_and_submodules }}
+- {% include get_url.html title=ethics.title permalink=ethics.permalink %}
+    - {% include get_url.html title=conduct.title permalink=conduct.permalink %}
+    - {% include get_url.html title=education.title permalink=education.permalink %}
+- {% include get_url.html title=software.title permalink=software.permalink %}
+    - {% include get_url.html title=case.title permalink=case.permalink %}
+    - {% include get_url.html title=attention.title permalink=attention.permalink %}
+- {% include get_url.html title=privacy.title permalink=privacy.permalink %}
+    - {% include get_url.html title=overview.title permalink=overview.permalink %}
+    - {% include get_url.html title=vulnerable.title permalink=vulnerable.permalink %}
+    - {% include get_url.html title=human.title permalink=human.permalink %}
+- {% include get_url.html title=algorithms.title permalink=algorithms.permalink %}
+    - {% include get_url.html title=bias.title permalink=bias.permalink %}
+    - {% include get_url.html title=misinformation.title permalink=misinformation.permalink %}
+- {% include get_url.html title=policy.title permalink=policy.permalink %}
+    - {% include get_url.html title=copyright.title permalink=copyright.permalink %}
+    - {% include get_url.html title=government.title permalink=government.permalink %}

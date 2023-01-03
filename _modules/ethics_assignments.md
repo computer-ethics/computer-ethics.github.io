@@ -3,7 +3,6 @@ permalink: /modules/ethics/assignments/
 layout: home
 title: Assignments
 parent: Ethics and Values
-grand_parent: Modules
 nav_order: 99
 ---
 
