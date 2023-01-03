@@ -3,7 +3,6 @@ permalink: /modules/privacy/assignments/
 layout: home
 title: Assignments
 parent: Privacy, Surveillance, and Free Speech
-grand_parent: Modules
 nav_order: 99
 ---
 

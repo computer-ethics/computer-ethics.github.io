@@ -2,17 +2,20 @@
 permalink: /modules/privacy/
 layout: home
 title: Privacy, Surveillance, and Free Speech
-parent: Modules
 nav_order: 3
 has_children: true
 has_toc: false
 ---
 
+{% assign modules = site.modules | where:"parent", page.title | sort: "nav_order" %}
+
 # {{ page.title }}
 {{ site.h2_available_submodules }}
-* [{{ site.overview_txt }}]({{ site.overview_url }})
-* [{{ site.vulnerable_txt }}]({{ site.vulnerable_url }})
-* [{{ site.human_txt }}]({{ site.human_url }})
+{% for module in modules -%}
+{% unless module.title == "Assignments" -%}
+* {% include get_url.html title=module.title permalink=module.permalink %}
+{%- endunless %}
+{% endfor %}
 
 {{ site.h2_available_assignments }}
 * [User Interviews](/modules/privacy/assignments/#assignment-1-user-interviews)

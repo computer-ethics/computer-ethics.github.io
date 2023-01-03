@@ -3,20 +3,22 @@ permalink: /modules/algorithms/misinformation/
 layout: home
 title: Propaganda and Misinformation
 parent: Algorithmic Decision-Making
-grand_parent: Modules
 nav_order: 2
+readings:
+    - "Verizon, [\"A Guide to Misinformation: How to Spot and Combat Fake News\"](https://web.archive.org/web/20201226045612/https://www.verizon.com/info/technology/fake-news-on-social-media/), 2020."
+    - "Akos Lada, Meihong Wang, Tak Yan, [\"How machine learning powers Facebook's News Feed ranking algorithm\"](https://engineering.fb.com/2021/01/26/ml-applications/news-feed-ranking/), 2021."
+    - "Karen Hao, [\"The Facebook whistleblower says its algorithms are dangerous. Here's why.\"](https://www.technologyreview.com/2021/10/05/1036519/facebook-whistleblower-frances-haugen-algorithms/), 2021."
+    - "Chris Meserole, [\"How misinformation spreads on social media—And what to do about it\"](https://www.brookings.edu/blog/order-from-chaos/2018/05/09/how-misinformation-spreads-on-social-media-and-what-to-do-about-it/), 2018."
+    - "Filippo Menczer and Thomas Hills, [\"Information Overload Helps Fake News Spread, and Social Media Knows It\"](https://www.scientificamerican.com/article/information-overload-helps-fake-news-spread-and-social-media-knows-it/), 2020."
+    - "(Skim) The Wall Street Journal, [\"How to Fix Social Media\"](https://www.wsj.com/articles/how-to-fix-social-media-11635526928), 2021."
+    - "(Skim) Renée DiResta, [\"It's Not Misinformation. It's Amplified Propaganda\"](https://www.theatlantic.com/ideas/archive/2021/10/disinformation-propaganda-amplification-ampliganda/620334/), 2021."
 ---
 
 # {{ page.title }}
-
 <h2 class="text-delta">Readings</h2>
-{{ site.verizon2020guide }}
-{{ site.lada2021machine }}
-{{ site.hao2021facebook }}
-{{ site.meserole2018how }}
-{{ site.menczer2020information }}
-{{ site.wsj2021how }}
-{{ site.diresta2021misinformation }}
+{% for reading in page.readings -%}
+* {{ reading }}
+{% endfor %}
 
 <h2 class="text-delta">Reading Responses</h2>
 Please answer the following three questions using 150 words or less for each response:
