@@ -17,43 +17,42 @@ This page presents the syllabus, assignments, and their grade contribution used 
 {:toc}
 
 ## Schedule
-
 {% assign ethics = site.modules | where:"permalink", "/modules/ethics/"  | first %}
-{% assign conduct = site.modules | where:"permalink", "/modules/ethics/conduct/"  | first %}
-{% assign education = site.modules | where:"permalink", "/modules/ethics/education/"  | first %}
+{% assign conduct = site.readings | where:"permalink", "/modules/ethics/conduct/"  | first %}
+{% assign education = site.readings | where:"permalink", "/modules/ethics/education/"  | first %}
 
 {% assign privacy = site.modules | where:"permalink", "/modules/privacy/"  | first %}
-{% assign overview = site.modules | where:"permalink", "/modules/privacy/overview/"  | first %}
-{% assign vulnerable = site.modules | where:"permalink", "/modules/privacy/vulnerable/"  | first %}
-{% assign human = site.modules | where:"permalink", "/modules/privacy/human/"  | first %}
+{% assign overview = site.readings | where:"permalink", "/modules/privacy/overview/"  | first %}
+{% assign vulnerable = site.readings | where:"permalink", "/modules/privacy/vulnerable/"  | first %}
+{% assign human = site.readings | where:"permalink", "/modules/privacy/human/"  | first %}
 
 {% assign software = site.modules | where:"permalink", "/modules/software/"  | first %}
-{% assign case = site.modules | where:"permalink", "/modules/software/case/"  | first %}
-{% assign attention = site.modules | where:"permalink", "/modules/software/attention/"  | first %}
+{% assign case = site.readings | where:"permalink", "/modules/software/case/"  | first %}
+{% assign attention = site.readings | where:"permalink", "/modules/software/attention/"  | first %}
 
 {% assign algorithms = site.modules | where:"permalink", "/modules/algorithms/"  | first %}
-{% assign bias = site.modules | where:"permalink", "/modules/algorithms/bias/"  | first %}
-{% assign misinformation = site.modules | where:"permalink", "/modules/algorithms/misinformation/"  | first %}
+{% assign bias = site.readings | where:"permalink", "/modules/algorithms/bias/"  | first %}
+{% assign misinformation = site.readings | where:"permalink", "/modules/algorithms/misinformation/"  | first %}
 
 {% assign policy = site.modules | where:"permalink", "/modules/policy/"  | first %}
-{% assign copyright = site.modules | where:"permalink", "/modules/policy/copyright/"  | first %}
-{% assign government = site.modules | where:"permalink", "/modules/policy/government/"  | first %}
+{% assign copyright = site.readings | where:"permalink", "/modules/policy/copyright/"  | first %}
+{% assign government = site.readings | where:"permalink", "/modules/policy/government/"  | first %}
 
-| Module                                               | Topic                                                        | Assigned Materials                                                           |
-|:-----------------------------------------------------|:-------------------------------------------------------------|:-----------------------------------------------------------------------------|
-| N/A                                                  | Introduction and Logistics                                   | N/A                                                                          |
-| [{{ ethics.title }}]({{ ethics.permalink }})         | [{{ conduct.title }}]({{ conduct.permalink }})               | {% for reading in conduct.readings %}        * {{ reading }}<br>{% endfor %} | 
-| [{{ ethics.title }}]({{ ethics.permalink }})         | [{{ education.title }}]({ education.permalink })             | {% for reading in education.readings %}      * {{ reading }}<br>{% endfor %} |
-| [{{ privacy.title }}]({{ privacy.permalink }})       | [{{ overview.title }}]({{ overview.permalink }})             | {% for reading in overview.readings %}       * {{ reading }}<br>{% endfor %} |
-| [{{ privacy.title }}]({{ privacy.permalink }})       | [{{ vulnerable.title }}]({{ vulnerable.permalink }})         | {% for reading in vulnerable.readings %}     * {{ reading }}<br>{% endfor %} |
-| [{{ privacy.title }}]({{ privacy.permalink }})       | [{{ human.title }}]({{ human.permalink }})                   | {% for reading in human.readings %}          * {{ reading }}<br>{% endfor %} |
-| [{{ software.title }}]({{ software.permalink }})     | [{{ case.title }}]({{ case.permalink }})                     | {% for reading in case.readings %}           * {{ reading }}<br>{% endfor %} |
-| [{{ software.title }}]({{ software.permalink }})     | [{{ attention.title }}]({{ attention.permalink }})           | {% for reading in attention.readings %}      * {{ reading }}<br>{% endfor %} |
-| [{{ algorithms.title }}]({{ algorithms.permalink }}) | [{{ bias.title }}]({{ bias.permalink }})                     | {% for reading in bias.readings %}           * {{ reading }}<br>{% endfor %} |
-| [{{ algorithms.title }}]({{ algorithms.permalink }}) | [{{ misinformation.title }}]({{ misinformation.permalink }}) | {% for reading in misinformation.readings %} * {{ reading }}<br>{% endfor %} |          
-| [{{ policy.title }}]({{ policy.permalink }})         | [{{ copyright.title }}]({{ copyright.permalink }})           | {% for reading in copyright.readings %}      * {{ reading }}<br>{% endfor %} |       
-| [{{ policy.title }}]({{ policy.permalink }})         | [{{ government.title }}]({{ government.permalink }})         | {% for reading in government.readings %}     * {{ reading }}<br>{% endfor %} |         
-| N/A                                                  | Conclusion and Wrap-up                                       | N/A                                                                          |       
+| Module                                               | Topic                                                        | Assigned Materials                                                                                            |
+|:-----------------------------------------------------|:-------------------------------------------------------------|:--------------------------------------------------------------------------------------------------------------|
+| N/A                                                  | Introduction and Logistics                                   | N/A                                                                                                           |
+| [{{ ethics.title }}]({{ ethics.permalink }})         | [{{ conduct.title }}]({{ conduct.permalink }})               | {% for reading in conduct.readings %}        * {% include get_reading.html reading=reading %}<br>{% endfor %} | 
+| [{{ ethics.title }}]({{ ethics.permalink }})         | [{{ education.title }}]({ education.permalink })             | {% for reading in education.readings %}      * {% include get_reading.html reading=reading %}<br>{% endfor %} |
+| [{{ privacy.title }}]({{ privacy.permalink }})       | [{{ overview.title }}]({{ overview.permalink }})             | {% for reading in overview.readings %}       * {% include get_reading.html reading=reading %}<br>{% endfor %} |
+| [{{ privacy.title }}]({{ privacy.permalink }})       | [{{ vulnerable.title }}]({{ vulnerable.permalink }})         | {% for reading in vulnerable.readings %}     * {% include get_reading.html reading=reading %}<br>{% endfor %} |
+| [{{ privacy.title }}]({{ privacy.permalink }})       | [{{ human.title }}]({{ human.permalink }})                   | {% for reading in human.readings %}          * {% include get_reading.html reading=reading %}<br>{% endfor %} |
+| [{{ software.title }}]({{ software.permalink }})     | [{{ case.title }}]({{ case.permalink }})                     | {% for reading in case.readings %}           * {% include get_reading.html reading=reading %}<br>{% endfor %} |
+| [{{ software.title }}]({{ software.permalink }})     | [{{ attention.title }}]({{ attention.permalink }})           | {% for reading in attention.readings %}      * {% include get_reading.html reading=reading %}<br>{% endfor %} |
+| [{{ algorithms.title }}]({{ algorithms.permalink }}) | [{{ bias.title }}]({{ bias.permalink }})                     | {% for reading in bias.readings %}           * {% include get_reading.html reading=reading %}<br>{% endfor %} |
+| [{{ algorithms.title }}]({{ algorithms.permalink }}) | [{{ misinformation.title }}]({{ misinformation.permalink }}) | {% for reading in misinformation.readings %} * {% include get_reading.html reading=reading %}<br>{% endfor %} |          
+| [{{ policy.title }}]({{ policy.permalink }})         | [{{ copyright.title }}]({{ copyright.permalink }})           | {% for reading in copyright.readings %}      * {% include get_reading.html reading=reading %}<br>{% endfor %} |       
+| [{{ policy.title }}]({{ policy.permalink }})         | [{{ government.title }}]({{ government.permalink }})         | {% for reading in government.readings %}     * {% include get_reading.html reading=reading %}<br>{% endfor %} |         
+| N/A                                                  | Conclusion and Wrap-up                                       | N/A                                                                                                           |       
 
 ## Assessment
 
