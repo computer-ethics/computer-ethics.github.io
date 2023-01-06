@@ -1,5 +1,6 @@
 ---
 permalink: /modules/software/case/
+title: Case Studies
 readings:
     - title: "How the Boeing 737 MAX Disaster Looks to a Software Developer"
       author: "Gregory Travis"

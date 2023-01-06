@@ -1,5 +1,6 @@
 ---
 permalink: /modules/ethics/conduct/
+title: Professional Conduct
 readings:
     - title: "Code of Ethics and Professional Conduct"
       author: "ACM"

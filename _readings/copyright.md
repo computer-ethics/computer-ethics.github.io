@@ -1,5 +1,6 @@
 ---
 permalink: /modules/policy/copyright/
+title: Intellectual Property, Copyright, and Patents
 readings:
     - title: "Intellectual Property for CS Students"
       author: "CS Department at Duke University"

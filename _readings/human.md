@@ -1,5 +1,6 @@
 ---
 permalink: /modules/privacy/human/
+title: Human Factors
 readings:
     - title: "Privacy and human behavior in the age of information"
       author: "Alessandro Acquisti, Laura Brandimarte, and George Loewenstein"
