@@ -61,8 +61,6 @@ readings_objects:
       year: 2021
       url: "https://www.humanetech.com/youth/persuasive-technology"
       note: "Skim"
-
-      
 ---
 
 # {{ page.title }}
