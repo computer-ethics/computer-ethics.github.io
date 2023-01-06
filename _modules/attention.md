@@ -4,15 +4,6 @@ layout: home
 title: Attention and Engagement
 parent: Software Risks and Case Studies
 nav_order: 2
-readings:
-    - "(Watch) Nir Eyal / TED Institute, [\"What makes some technology so habit-forming?\"](https://www.youtube.com/watch?v=11dYx_rW_Ks), 2015."
-    - "(or if you prefer to read) Nir Eyal, [\"The Hooked Model: How to Manufacture Desire in 4 Steps\"](https://www.nirandfar.com/how-to-manufacture-desire/), 2012."
-    - "Nielsen Norman Group, [\"The Attention Economy\"](https://www.nngroup.com/articles/attention-economy/), 2019."
-    - "Monica Rozenfeld, [\"How Persuasive Technology Can Change Your Habits\"](https://spectrum.ieee.org/how-persuasive-technology-can-change-your-habits), 2018."
-    - "Trevor Haynes, [\"Dopamine, Smartphones & You: A battle for your time\"](https://sitn.hms.harvard.edu/flash/2018/dopamine-smartphones-battle-time/), 2018."
-    - "Kevin Roose, [\"Do Not Disturb: How I Ditched My Phone and Unbroke My Brain\"](https://www.nytimes.com/2019/02/23/business/cell-phone-addiction.html), 2019."
-    - "Chaim Gartenberg, [\"How do Apple's Screen Time and Google Digital Wellbeing stack up?\"](https://www.theverge.com/2018/6/5/17426922/apple-digital-health-vs-google-wellbeing-time-well-spent-wwdc-2018), 2018."
-    - "(Skim) Center for Humane Technology, [\"How does technology use design to influence my behavior?\"](https://www.humanetech.com/youth/persuasive-technology), 2021."
 ---
 
 # {{ page.title }}

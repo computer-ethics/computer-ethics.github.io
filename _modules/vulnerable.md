@@ -4,13 +4,6 @@ layout: home
 title: Vulnerable Populations
 parent: Privacy, Surveillance, and Free Speech
 nav_order: 2
-readings:
-    - "(Watch) Tom Simonite, [\"CryptoHarlem's Founder Warns Against 'Digital Stop and Frisk'\"](https://www.wired.com/story/cryptoharlem-matt-mitchell-digital-stop-and-frisk/), 2020."
-    - "Joseph Cox, [\"I Gave a Bounty Hunter $300. Then He Located Our Phone\"](https://www.vice.com/en/article/nepxbz/i-gave-a-bounty-hunter-300-dollars-located-phone-microbilt-zumigo-tmobile), 2019."
-    - "Allie Funk, [\"Apple's AirTag offers convenience but poses serious threats — and it's not alone\"](https://www.washingtonpost.com/opinions/2021/05/13/apple-airtag-tracking-threats-abuse/), 2021."
-    - "Sara Morrison and Adam Clark Estes, [\"How protesters are turning the tables on police surveillance\"](https://www.vox.com/recode/2020/6/12/21284113/police-protests-surveillance-instagram-washington-dc), 2020."
-    - "(Skim) William R. Marczak et al., [\"When Governments Hack Opponents: A Look at Actors and Technology\"](https://www.usenix.org/system/files/conference/usenixsecurity14/sec14-paper-marczak.pdf), 2014."
-    - "(Skim) Sam Biddle, [\"Police Surveilled George Floyd Protests with the Help from Twitter-affiliated Startup Dataminr\"](https://theintercept.com/2020/07/09/twitter-dataminr-police-spy-surveillance-black-lives-matter-protests/), 2020." 
 ---
 
 # {{ page.title }}

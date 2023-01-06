@@ -4,13 +4,6 @@ layout: home
 title: Human Factors
 parent: Privacy, Surveillance, and Free Speech
 nav_order: 3
-readings:
-    - "Alessandro Acquisti, Laura Brandimarte, and George Loewenstein, [\"Privacy and human behavior in the age of information\"](https://www.science.org/doi/10.1126/science.aaa1465), 2015."
-    - "Ivano Bongiovanni, Karen Renaud, and Noura Aleisa, [\"The privacy paradox: we claim we care about our data, so why don't our actions match?\"](https://theconversation.com/the-privacy-paradox-we-claim-we-care-about-our-data-so-why-dont-our-actions-match-143354), 2020."
-    - "Arielle Pardes, [\"How Facebook and Other Sites Manipulate Your Privacy Choices\"](https://www.wired.com/story/facebook-social-media-privacy-dark-patterns/), 2020."
-    - "Genia Kostka, [\"What do people in China think about 'social credit' monitoring?\"](https://www.washingtonpost.com/politics/2019/03/21/what-do-people-china-think-about-social-credit-monitoring/), 2019."
-    - "(Skim) Institute of Global Health Innovation (IGHI), [\"Covid-19: Perceptions of Contact Tracing Global Report\"](https://www.imperial.ac.uk/media/imperial-college/institute-of-global-health-innovation/Global_ICL-YouGov-Covid-19-Behaviour-Tracker_contact-tracing_20200821_vF%5B1%5D.pdf), 2020."
-    - "(Skim, skip chapter 4) Laura Brandimarte and Alessandro Acquisti, [\"The Economics of Privacy\"](https://academic.oup.com/edited-volume/28259/chapter-abstract/213408789?redirectedFrom=fulltext), 2012."
 ---
 
 # {{ page.title }}
