@@ -12,12 +12,19 @@ collections:
   modules:
     permalink: "/:collection/:path/"
     output: true
+  readings:
+    permalink: "/:collection/:path/"
+    output: false
 
 just_the_docs:
   collections:
     modules:
       name: Modules
       nav_fold: false
+    readings:
+      name: Readings
+      nav_exclude: true
+      search_exclude: true
 
 ##################################
 # Navigation Structure.
