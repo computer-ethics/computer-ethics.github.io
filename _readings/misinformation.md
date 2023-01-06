@@ -1,5 +1,6 @@
 ---
 permalink: /modules/algorithms/misinformation/
+title: Propaganda and Misinformation
 readings:
     - title: "A Guide to Misinformation: How to Spot and Combat Fake News"
       author: "Verizon"

@@ -1,5 +1,6 @@
 ---
 permalink: /modules/ethics/education/
+title: Teaching Ethics
 readings:
     - title: "Teaching Ethics and Policy in Computer Science"
       author: "MIT"

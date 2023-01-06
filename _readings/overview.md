@@ -1,5 +1,6 @@
 ---
 permalink: /modules/privacy/overview/
+title: Overview
 readings:
     - title: "Op-Ed by Andrew Yang: Make tech companies pay you for your data"
       author: "Andrew Yang"

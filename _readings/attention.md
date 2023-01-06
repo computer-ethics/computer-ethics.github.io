@@ -1,5 +1,6 @@
 ---
 permalink: /modules/software/attention/
+title: Attention and Engagement
 readings:
     - title: "What makes some technology so habit-forming?"
       author: "Nir Eyal / TED Institute"

@@ -1,5 +1,6 @@
 ---
 permalink: /modules/algorithms/bias/
+title: Bias and Fairness
 readings:
     - title: "A Very Brief Introduction to Probability and Machine Learning with the Perceptron Algorithm"
       author: "Mehran Sahami"

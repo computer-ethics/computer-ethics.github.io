@@ -1,5 +1,6 @@
 ---
 permalink: /modules/privacy/vulnerable/
+title: Vulnerable Populations
 readings:
     - title: "CryptoHarlem's Founder Warns Against 'Digital Stop and Frisk'"
       author: "Tom Simonite"

@@ -1,5 +1,6 @@
 ---
 permalink: /modules/policy/government/
+title: Government and Technology
 readings:
     - title: "Of Course Congress Is Clueless About Tech—It Killed Its Tutor"
       author: "Kim Zetter"
