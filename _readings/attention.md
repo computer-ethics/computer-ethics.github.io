@@ -49,5 +49,3 @@ readings:
       url: "https://www.humanetech.com/youth/persuasive-technology"
       note: "Skim"
 ---
-
-Test.
