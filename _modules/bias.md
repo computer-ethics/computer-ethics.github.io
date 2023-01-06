@@ -57,7 +57,6 @@ readings_objects:
 ---
 
 # {{ page.title }}
-
 <h2 class="text-delta">Readings</h2>
 {% assign sorted_readings = page.readings_objects | sort: "year" | reverse %}
 {% include get_readings.html readings=sorted_readings -%}
