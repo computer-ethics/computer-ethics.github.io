@@ -13,6 +13,10 @@ social:
 theme: just-the-docs
 # color_scheme: dark
 
+# Plugins.
+plugins:
+  - jekyll-sitemap
+
 ##################################
 # Collections
 ##################################
