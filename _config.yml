@@ -1,9 +1,17 @@
+# Jekyll SEO Tags.
 title: Computer Ethics
-description: Computer Ethics Education Center at UC Berkeley provides the necessary resources to create a computer ethics class curriculum, aimed at undergraduate and graduate students with existing technical background.
+tagline: An open repository of teaching resources
+description: The Computer Ethics Education Center offers materials and resources to teach undergraduate and graduate students in Computer Science and related disciplines about the social, ethical, and legal implications of computer technologies.
+author: Nikita Samarin
+url: https://computer-ethics.com/
+
+social:
+  links:
+    - https://www.linkedin.com/company/computer-ethics/
+
+# Theme configuration.
 theme: just-the-docs
 # color_scheme: dark
-
-url: https://computer-ethics.com/
 
 ##################################
 # Collections
